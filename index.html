@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,70 +8,63 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Serif:wght@600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Creepster&family=Dancing+Script:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Jolly+Lodger&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="./style.css">
     <title>BeerHouse</title>
 </head>
+
 <body>
 
-     <nav class="navbar navbar-expand-lg bg-sec fixed-top">
-        <div class="container-fluid">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid colorNav">
             <a class="navbar-brand" href="#">
-                <img id="logo" class="logo" src="./media./bottes.png" alt="">
+                <img id="logo" src="./media/bottes.png" alt="Logo"
+                    class="d-inline-block align-text-top">
             </a>
-            <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <a class="navbar-brand text-w"><span class="text-w">Beer</span><span class="text-b">House</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse bg-sec " id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-b" aria-current="page" href=""">Home</a>
+                        <a class="nav-link  text-w" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-b" href="./annunci.html">Birre</a>
+                        <a class="nav-link text-w" href="#">Chi siamo?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-b" href="./chi-siamo.html">Chi Siamo</a>
+                        <a class="nav-link text-w" href="#">Le nostre birre</a>
+                    </li>
+                    <li class="nav-item">
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
-    <div class="container-fluid mt-header">
-        <div class="row header">
-            <div class="col-12  d-flex justify-content-center ">
-                <div class="col-12 col-md-6  h-100 d-flex flex-column justify-content-center">
-                    <h1 id="textHeader" class="text-w">Birre<span class="text-p">.</span>it</h1>
-                    <input type="text" class="form-control" placeholder="Cosa stai cercando?">
-                </div>
+ 
+    <!-- corpo  -->
+    <div class="container-fluid ">
+        <div class="row header justify-content-center">
+            <div class="col-12 col-md-6 d-flex flex-column align-items-center ">
+                <h2 class="text-w text-center">Benvenuti al <h1 class="text-w">Beer</span><span class="text-b">House</h1></h2>
+                <p class="text-b text-center">Scopri le nostre birre artigianali e vivi un'esperienza unica </p>
+                <button type="button" class="btn btn-secondary colorNav text-w btn-lg">Bevi con onore</button>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row justify-content-center bg-sec py-5">
-            <h2 class="text-center">Un po di numeri</h2>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 d-flex justify-content-center">
-                <img class="rounded-circle img-fluid p-3 border" src="https://picsum.photos/400" alt="">
-            </div>
-            <div class="col-12 col-md-6">
-                <p>Prodotti venduti: </p>
-                <p>Clienti soddisfatti: </p>
-                <p>Recensioni ricevute: </p>
-            </div>
-        </div>
-    </div>
+    <!-- parte annunci -->
 
 
     <script src="main.js"></script>
-    
+
 </body>
+
 </html>
