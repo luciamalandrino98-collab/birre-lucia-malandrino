@@ -1,7 +1,7 @@
 * {
     font-family: "Grenze Gotisch", serif;
     font-optical-sizing: auto;
-    font-size: 1.5rem;
+    font-size: 1 .30rem;
     font-weight: 400;
     font-style: normal;
     }
@@ -39,7 +39,19 @@
 
 .header {
     height: calc(100vh - 70px);
-    background-image: linear-gradient(rgba(23, 23, 23, 0.9), rgba(23, 23, 23, 0.7)), url('./media/birrificio.jpeg');
+    background-image: linear-gradient(rgba(23, 23, 23, 1.0), rgba(23, 23, 23, 0.8)), url('./media/birrificio.jpeg');
     background-size: cover;
     background-position: center;
+}
+
+
+#scritta{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+h1{
+    font-size: 100px;
+    
+    
 }
